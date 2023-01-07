@@ -1,9 +1,5 @@
-# Preface {.unnumbered}
+# 关于本书 {.unnumbered}
 
-This is a Quarto book.
+本书是由沈江影编写的《R语言数据科学导论》，作为数据科学教程系列的教材，本书全文向所有读者免费提供，并且文中所有代码全部开源，参见本项目的[GitHub Repository](https://github.com/ShenJiangYing/Data-Science-with-R) (https://github.com/ShenJiangYing/Data-Science-with-R)。
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
-
-```{r}
-1 + 1
-```
+由于作者水平有限，本书中难免会有错漏之处，欢迎各位读者批评指正，本人email：ShenJiangYing0403\@outlook.com。

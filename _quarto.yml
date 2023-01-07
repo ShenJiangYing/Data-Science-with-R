@@ -1,15 +1,32 @@
+lang: zh
+
 project:
   type: book
 
 book:
-  title: "Data Science with R"
-  author: "Jane Doe"
-  date: "2023/1/6"
+  title: "R语言数据科学导论"
+  author: "沈江影"
+  date: "2023/1/5"
   chapters:
     - index.qmd
     - intro.qmd
+    - part: "导论"
+      chapters:
+        - intro2ds.qmd
+        - intro2R.qmd
+    - part: "R语言基础"
+      chapters:
+        - Rstartingup.qmd
+        - Rbasic.qmd
+        - Rio.qmd
+        - Rdatastructure.qmd
+        - Rdatatransmations.qmd
+    - part: "统计学基础"
     - summary.qmd
     - references.qmd
+  appendices: 
+    - images.qmd
+  page-navigation: true
 
 bibliography: references.bib
 
@@ -17,7 +34,9 @@ format:
   html:
     theme: cosmo
   pdf:
-    documentclass: scrreprt
-
-editor: visual
+    documentclass: scrbook
+    include-in-header: 
+      text: |
+        \usepackage{ctex}
+        \usepackage{amsthm,mathrsfs}
 
